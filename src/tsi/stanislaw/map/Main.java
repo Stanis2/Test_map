@@ -41,7 +41,7 @@ public class Main {
         translations3.put("home", "дом");
         translations3.put("road", "дорога");
 
-        //В порядке убывания-возрастания. "TreeMap<>(Comparator.reverseOrder());"
+        //В порядке убывания-возрастания по буквам или числам. "TreeMap<>(Comparator.reverseOrder());"
 
         for (String k : translations3.keySet()) {
             System.out.printf("%s -> %s\n", k, translations3.get(k));
